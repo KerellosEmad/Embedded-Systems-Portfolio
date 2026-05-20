@@ -10,8 +10,10 @@ SOURCES = \
 	course1.c \
 	stats.c
 
-# Include paths for preprocessor lookup
+# Include paths for preprocessor lookup aligned with your workspace
 INCLUDES = \
 	-I. \
-	-I../include/CMSIS \
-	-I../include/msp432
+	-I./course1 \
+	-I../assessments/m2/include/common \
+	-I../assessments/m2/include/CMSIS \
+	-I../assessments/m2/include/msp432

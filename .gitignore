@@ -1,6 +1,28 @@
+# =========================
+# Build outputs
+# =========================
 *.o
-*.d
-*.i
-*.asm
 *.out
 *.map
+*.asm
+*.i
+*.elf
+*.bin
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.log
+
+# =========================
+# OS / system files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Editor files (optional but recommended)
+# =========================
+.vscode/
+.idea/
